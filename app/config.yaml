@@ -22,6 +22,13 @@ manifest:
       - "What's the latest research from Anthropic?"
       - "Search for OpenAI's latest model release"
 
+  genui-orchestrator:
+    description: "Interprets user intent and returns a validated GenUI layout schema for the Next.js + CopilotKit frontend."
+    quick_prompts:
+      - "Show me a dashboard with key metrics"
+      - "Build a data table of recent activity"
+      - "Create a trend chart for monthly revenue"
+
   # --- Workflows ---
 
   deployment-check:
